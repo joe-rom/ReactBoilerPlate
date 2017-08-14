@@ -1,0 +1,58 @@
+body {
+  background: white;
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.header-text{
+  color: white;
+  padding-left: 30px;
+  font-size: 28px;
+}
+
+
+.welcome {
+  height: 850px;
+  background-color: grey;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+
+}
+
+.wrapper-text-welcome{
+  padding: 270px 0;
+  text-align: center;
+}
+
+.welcome-bg {
+  font-size: 60px;
+}
+
+.welcome-sm {
+  font-size: 30px;
+}
+
+
+.about {
+  height: 400px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  height: 100px;
+}
